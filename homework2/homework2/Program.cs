@@ -48,8 +48,6 @@ namespace homework2
 
             Console.WriteLine($"min = {min}");
 
-
-
             pause();
 
             #endregion
