@@ -35,49 +35,49 @@ namespace homework2
         static void Main(string[] args)
         {
             #region hm1
-            //Console.Write(" a = ");
-            //int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write(" a = ");
+            int a = Convert.ToInt32(Console.ReadLine());
 
-            //Console.Write(" b = ");
-            //int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write(" b = ");
+            int b = Convert.ToInt32(Console.ReadLine());
 
-            //Console.Write(" c = ");
-            //int c = Convert.ToInt32(Console.ReadLine());
+            Console.Write(" c = ");
+            int c = Convert.ToInt32(Console.ReadLine());
 
-            //int min = ret(a, b, c);
+            int min = ret(a, b, c);
 
-            //Console.WriteLine($"min = {min}");
+            Console.WriteLine($"min = {min}");
 
 
 
-            //pause();
+            pause();
 
             #endregion
 
             #region hm2
 
-            //    Console.Write("Число: ");                                               
-            //    Console.WriteLine("Количество знаков: " + count(Console.ReadLine()));
+            Console.Write("Число: ");
+            Console.WriteLine("Количество знаков: " + count(Console.ReadLine()));
 
-            //pause();
+            pause();
             #endregion
 
             #region hm3
 
-            //int sum = 0;
-            //int num = 0;
+            int sum = 0;
+            int num = 0;
 
-            //do
-            //{
-            //    num = int.Parse(Console.ReadLine());  // в переменную num кладем число ;
-            //    if (num > 0 && num % 2 == 1)          //  проверяем переменную  num  и делем ее на 2 с остатком ;
-            //        sum += num;                       // с кладываем все нечетные значения в переменную;
+            do
+            {
+                num = int.Parse(Console.ReadLine());  // в переменную num кладем число ;
+                if (num > 0 && num % 2 == 1)          //  проверяем переменную  num  и делем ее на 2 с остатком ;
+                    sum += num;                       // с кладываем все нечетные значения в переменную;
 
-            //} while (num != 0);                       // выполняем если num не равен "0"; 
+            } while (num != 0);                       // выполняем если num не равен "0"; 
 
-            //Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Sum: " + sum);
 
-            //pause();
+            pause();
             #endregion
 
             #region hm4
@@ -97,20 +97,20 @@ namespace homework2
 
                 i++;
 
-                if (i>=3)
+                if (i >= 3)
                 {
-                   Console.Write($"Вы сделали " + i + " максимальных попыток ввода");
-                   return; 
+                    Console.Write($"Вы сделали " + i + " максимальных попыток ввода");
+                    return;
                 }
 
             }
-            
+
             while (log != log1 && pass != pass1);          // Повторять пока условие истинно(true)
             Console.Write($"логин и пароль совподают проходите");
             pause();
-            
 
-            
+
+
             #endregion
         }
 
